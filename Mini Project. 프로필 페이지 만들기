@@ -2,31 +2,32 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>이미진의 프로필</title>
+    <title>쭁이의 프로필</title>
   </head>
   <body>
-    <h1 title="이미진의 프로필">이 미 진<h1>
-    <img src="images/1.jpeg"
-    alt="이미진의 사진"
+    <h1 title="쭁이의 프로필">쭁 이<h1>
+    <img src="images/쭁.jpg"
+    alt="사랑스러운 쭁이의 사진"
     width="300"
     >
     <div id="introduce">
-      <p>안녕하세요. 이미진이라고 합니다.</p>
-      <p>대구에서 살아왔지만 지금은 제주도에 살고 있습니다.</p>
-      <p>귀여운 아기와 재미있는 남편과 옹냥옹냥 살고 있어요.</p>
+      <p>안녕하세요. 쭁이라고 해요.</p>
+      <p>엄마와 같은 달 같은 날에 태어난 귀염둘이랍니다.</p>
+      <p>가끔 우유도 던지고 식탁 위에도 올라가는 사고뭉치지만 엄마와 아빠를 항상 미소짓게 만드는 복덩이에요</p>
     </div>
     <hr>
-    <div id="manual">
-      <h2>이미진의 사용법</h2>
+    <div id="fun facts">
+      <h2>쭁이의 이모저모</h2>
       <p>
-        1. <q>배가 고프면 우울해요.</q><br>
-        2. <strong>멍때리기</strong> 좋아해요.<br>
-        3. <mark>누가 해주는 밥</mark>이 좋아요.<br>
-        4. <em>노는 것</em>이 좋아요. <br>
+        1. <q>치즈와 바나나</q>를 좋아해요.<br>
+        2. <strong>친구들</strong>이랑 같이 노는게 제일 재밌어요!<br>
+        3. 집에 있기 지루해요. <mark>밖에서</mark>맨날 뛰어놀고 싶어요. <br>
+        4. 재워주지 않아도<em>혼자서</em>잘자요. <br>
       </p>
 
     </div>
     <hr>
-    <span>&copy; 이미진</span>
+    <span>&copy; 쭁</span>
   </body>
+</html>
 </html>
