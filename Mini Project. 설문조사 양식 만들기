@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>설문조사 양식</title>
+</head>
+<body>
+    <header>
+        <h1>개발자 대상 설문조사</h1>
+        <p>모든 항목에 빠짐없이 체크해주세요.</p>
+    </header>
+    <hr>
+    <main>
+        <form>
+           <fieldset>
+                <legend>개인정보</legend>
+                <label for="name">이름</label>
+                <input type="text" 
+                name="name"
+                id="name" placeholder="본명을 입력하세요">
+                <br>
+                <label for="email">이메일</label>
+                <input type="email"
+                name="email"
+                id="email" placeholder="메일 주소 쓰세요">
+            </fieldset>
+            <fieldset>
+                <legend>설문</legend>
+                <p>1. 연령대가 어떻게 되나요?</p>
+                <input type="radio" id="twenty" name="age">
+                <label for="twenty">20대</label>
+                <input type="radio" id="thirty" name="age">
+                <label for="thirty">30대</label>
+                <input type="radio" id="fourty" name="age">
+                <label for="fourty">40대</label>
+                <input type="radio" id="fifty" name="age">
+                <label for="fifty">50대</label>
+                <input type="radio" id="other" name="age">
+                <label for="other">그 외</label>
+
+                <p>2. 하루 커피 섭취량은?</p>
+                <input type="radio" id="one" name="coffee">
+                <label for="one">1잔</label>
+                <input type="radio" id="two" name="coffee">
+                <label for="two">2잔</label>
+                <input type="radio" id="three" name="coffee">
+                <label for="three">3잔</label>
+                <input type="radio" id="four" name="coffee">
+                <label for="four">4잔</label>
+                <input type="radio" id="other" name="coffee">
+                <label for="other">그 외</label>
+
+                <p>3. 선호하는 커피 브랜드는?</p>
+                <input type="checkbox" id="starbucks" name="brand">
+                <label for="starbucks">스타벅스</label>
+                <input type="checkbox" id="mega" name="brand">
+                <label for="mega">메가커피</label>
+                <input type="checkbox" id="twosome" name="brand">
+                <label for="twosome">투썸플레이스</label>
+                <input type="checkbox" id="ediya" name="brand">
+                <label for="ediya">이디야커피</label>
+                <input type="checkbox" id="paik" name="brand">
+                <label for="paik">빽다방</label>
+                <p>* 중복체크가능</p>
+
+            </fieldset>
+            <fieldset>
+                <legend>하고 싶은 말</legend>
+                <textarea rows="3" cols="30" name="comment"></textarea>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>응답해주셔서 감사합니다.</p>
+    </footer>
+</body>
+</html>
